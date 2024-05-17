@@ -1,2 +1,1 @@
-# spark_column_analyzer-
-# another line
+# spark_column_analyzer
