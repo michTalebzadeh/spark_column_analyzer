@@ -60,3 +60,21 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 vbnet
 
 Feel free to customize this template according to your project's specific details and require
+
+Example
+
+Doing analysis for column Postcode
+
+Json formatted output
+
+{
+    "Postcode": {
+        "exists": true,
+        "num_rows": 93348,
+        "data_type": "string",
+        "null_count": 21921,
+        "null_percentage": 23.48,
+        "distinct_count": 38726,
+        "distinct_percentage": 41.49
+    }
+}
