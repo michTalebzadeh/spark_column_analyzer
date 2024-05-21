@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: spark_column_analyzer
+Version: 0.2.2
+License-File: LICENSE
+Requires-Dist: pyspark
