@@ -44,18 +44,12 @@ Running Tests
 To run tests for Spark Column Analyzer, follow these steps:
 
 Clone the repository:
-bash
-Copy code
 git clone https://github.com/michTalebzadeh/spark_column_analyzer.git
 Navigate to the project directory:
-bash
-Copy code
 cd spark_column_analyzer
 Install the dependencies:
-Copy code
 pip install -r requirements.txt
 Run the tests:
-Copy code
 python -m unittest discover tests
 Contributing
 If you'd like to contribute to Spark Column Analyzer, please open an issue or submit a pull request on GitHub.
@@ -64,6 +58,5 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 vbnet
-Copy code
 
 Feel free to customize this template according to your project's specific details and require
