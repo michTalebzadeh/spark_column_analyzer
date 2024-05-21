@@ -9,10 +9,9 @@ Spark Column Analyzer is a Python package that provides functions for analyzing 
 
 You can install Spark Column Analyzer using pip:
 
+```sh
 pip install spark-column-analyzer
 
-makefile
-Copy code
 
 ## Usage
 
