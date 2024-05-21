@@ -1,13 +1,7 @@
 import sys
 import unittest
 from pyspark.sql import SparkSession
-sys.path.append('/home/hduser/dba/bin/python/spark_column_analyzer/')
-sys.path.append('/home/hduser/dba/bin/python/spark_column_analyzer/conf')
-sys.path.append('/home/hduser/dba/bin/python/spark_column_analyzer/othermisc')
-sys.path.append('/home/hduser/dba/bin/python/spark_column_analyzer/src')
-sys.path.append('/home/hduser/dba/bin/python/spark_column_analyzer/tests')
-
-from src.column_analyzer import analyze_column
+from spark_column_analyzer.column_analyzer import analyze_column
 
 class TestColumnAnalyzer(unittest.TestCase):
     def setUp(self):
