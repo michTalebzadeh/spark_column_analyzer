@@ -4,7 +4,7 @@
 ## Overview
 
 Spark Column Analyzer is a Python package that provides functions for analyzing columns in PySpark DataFrames. It calculates various statistics such as null count, null percentage, distinct count, distinct percentage, min_value, max_value, avg_value and historams
-for each column. It also create a plot and saves it to the directory you are running the code from.
+for each column. It also creates a plot and saves it to the directory you are running the code from.
 
 ## Installation
 
