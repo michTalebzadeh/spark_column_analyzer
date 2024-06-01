@@ -3,7 +3,8 @@
 
 ## Overview
 
-Spark Column Analyzer is a Python package that provides functions for analyzing columns in PySpark DataFrames. It calculates various statistics such as null count, null percentage, distinct count, and distinct percentage for each column.
+Spark Column Analyzer is a Python package that provides functions for analyzing columns in PySpark DataFrames. It calculates various statistics such as null count, null percentage, distinct count, distinct percentage, min_value, max_value, avg_value and historams
+for each column. It also create a plot and saves it to the directory you are running the code from.
 
 ## Installation
 
@@ -68,13 +69,30 @@ Doing analysis for column Postcode
 Json formatted output
 
 {
-    "Postcode": {
+    "PricePaid": {
         "exists": true,
-        "num_rows": 93348,
-        "data_type": "string",
-        "null_count": 21921,
-        "null_percentage": 23.48,
-        "distinct_count": 38726,
-        "distinct_percentage": 41.49
+        "num_rows": 1819,
+        "data_type": "int",
+        "null_count": 0,
+        "null_percentage": 0.0,
+        "distinct_count": 1133,
+        "distinct_percentage": 62.29,
+        "min_value": 10000001,
+        "max_value": 448500000,
+        "avg_value": 32620476.65,
+        "histogram": {
+            "bins": [
+                10000001.0,
+                14216347.144230768,
+               448500000.0,
+
+            ],
+            "counts": [
+                468,
+                286,
+                258,
+
+            ]
+        }
     }
 }
